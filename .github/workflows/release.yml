@@ -68,7 +68,7 @@ jobs:
             cosmic-ext-applet-container-manager
 
       - name: Upload binary artifact
-        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
         with:
           name: binary-x86_64
           path: cosmic-ext-applet-container-manager-x86_64-linux.tar.gz
@@ -111,7 +111,7 @@ jobs:
           test -f cosmic-ext-applet-container-manager-x86_64.flatpak
 
       - name: Upload Flatpak artifact
-        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
         with:
           name: flatpak-x86_64
           path: cosmic-ext-applet-container-manager-x86_64.flatpak
